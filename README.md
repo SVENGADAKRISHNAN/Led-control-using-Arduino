@@ -58,9 +58,36 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="1203" height="843" alt="image" src="https://github.com/user-attachments/assets/21fd34cd-7043-464b-bb8d-f96d09499996" />
 
 ## PROGRAM
+'''
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(13,OUTPUT);
+  pinMode(2,INPUT);
+}
 
+void loop() {
+  // put your main code here, to run repeatedly:
+  int status=digitalRead(2);
+  if(status==HIGH){
+    digitalWrite(13,HIGH);
+    delay(500);
+    digitalWrite(13,LOW);
+    delay(500);
+  }
+  else{
+    digitalWrite(13,LOW);
+  }
+}
+'''
 ## OUTPUT
+## LED ON
+<img width="1087" height="759" alt="image" src="https://github.com/user-attachments/assets/75c0473c-c09c-4753-8568-23565085709c" />
+
+## LED OFF
+<img width="1084" height="761" alt="image" src="https://github.com/user-attachments/assets/12a78371-6728-429d-984d-f37e74eff964" />
 
 ## RESULT
+Successfully Designed and implemented a system for LED control using an Arduino microcontroller and a push button by using proteus
