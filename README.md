@@ -1,7 +1,8 @@
-# Led-control-using-Arduino
+
 ## NAME: S.VENGADA KRISHNAN
 ## DATE: 21.8.2025
 ## REG.NO: 212223110061
+## EXP 1: LED CONTROL USING ARDINO AND PUSH BUTTON.
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
